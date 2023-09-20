@@ -43,3 +43,38 @@ body{
     cursor: pointer;
    
 }
+.weather{
+    margin-top: 20px;
+    
+}
+
+#weather-icon #temp {
+    width: 170px;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+#temp{
+    margin-left: 30px;
+    font-size: 25px;
+}
+
+
+.weather h1{
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.weather h2{
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
