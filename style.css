@@ -1,0 +1,45 @@
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Tahoma, sans-serif;
+    background: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%);
+   
+}
+
+.card{
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(90deg, #fdbb2dd2 0%, #6739bdcc 100%);
+    color: white;
+    margin: 100px auto 0;
+    border-radius: 30px;
+    padding: 40px 35px;
+    text-align: center;
+
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search input{
+   text-align: center;
+    border: 0;
+    outline: 0;
+    background:#ebfffc ;
+    color: #555;
+    padding: 10px 30px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+#button{
+    cursor: pointer;
+   
+}
