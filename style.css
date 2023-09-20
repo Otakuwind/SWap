@@ -4,19 +4,28 @@ body{
     margin: 0;
     padding: 0;
     font-family: Verdana, Tahoma, sans-serif;
-    background: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%);
+    background:black;
    
 }
 
+.header{
+    color: rgba(255, 255, 255, 0.877);
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+    font-family:'Times New Roman', Times, serif
+
+}
 .card{
     width: 90%;
     max-width: 470px;
     background: linear-gradient(90deg, #fdbb2dd2 0%, #6739bdcc 100%);
     color: white;
-    margin: 100px auto 0;
+    margin: 50px auto 0;
     border-radius: 30px;
     padding: 40px 35px;
     text-align: center;
+    margin-bottom: 40px;
 
 }
 
@@ -27,36 +36,54 @@ body{
     justify-content: space-between;
 }
 .search input{
-   text-align: center;
+   
     border: 0;
     outline: 0;
     background:#ebfffc ;
     color: #555;
     padding: 10px 30px;
-    height: 60px;
+    height: 45px;
     border-radius: 30px;
     flex: 1;
     margin-right: 16px;
     font-size: 18px;
-}
-#button{
-    cursor: pointer;
-   
-}
-.weather{
-    margin-top: 20px;
+    margin-left:20px;
     
 }
+.search button{
+    border: 0;
+    outline: 0;
+    background:#ebfffc ;
+    cursor: pointer;
+   border-radius: 50%;
+   border: none;
+   height: 20px;
+}
+ .search button img{
+  
+    height: 16px;
+ }
 
-#weather-icon #temp {
+
+
+
+
+.weather{
+    margin-top: 20px;
+    display: none;
+}
+
+#weather-icon {
     width: 170px;
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     justify-content: space-between;
 }
 
 #temp{
-    margin-left: 30px;
-    font-size: 25px;
+    margin-left: 10px;
+    font-size: 19px;
+    margin-right: 10px;
 }
 
 
@@ -68,7 +95,7 @@ body{
 .weather h2{
     font-size: 30px;
     font-weight: 400;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .details{
@@ -76,5 +103,21 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
-    margin-top: 50px;
+    margin-top: 30px;
+}
+.col{
+
+    display:flex;
+    align-items: center;
+text-align: left;
+}
+
+.col #c-h  {
+    width:40px;
+    margin-right: 10px;
+}
+
+.humidity .wind{
+    font-size: 20px;
+    
 }
